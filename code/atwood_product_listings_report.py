@@ -73,7 +73,8 @@ prod_table = {'HomeLoan': 'home_loans',
               'TravelInsurance': 'travel_insurances',
               'PetInsurance': 'pet_insurances',
               'LandlordInsurance': 'landlord_insurances',
-              'LifeInsurance': 'life_insurances'
+              'LifeInsurance': 'life_insurances',
+              'Superannuation': 'superannuations'
               }
 
 # note: the function select_query was fixed on 2025-02-14 to correct a bug. Was previously assessing recency using last_updated_at instead of the correct page_last_updated field.
